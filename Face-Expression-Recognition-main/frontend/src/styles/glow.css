@@ -1,0 +1,23 @@
+.glow-gradient {
+  position: absolute;
+  filter: blur(90px);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.glow-gradient--primary {
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(76, 155, 255, 0.35), transparent 60%);
+  top: -80px;
+  left: -60px;
+}
+
+.glow-gradient--secondary {
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, rgba(92, 244, 255, 0.3), transparent 70%);
+  bottom: -120px;
+  right: -120px;
+}
+
